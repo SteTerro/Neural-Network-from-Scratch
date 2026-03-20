@@ -7,7 +7,9 @@ La struttura è capace di risolvere vari tipi di problemi tra cui:
     - **Regressione** (output lineare).
     - **Classificazione Binaria** (attivazione Sigmoide).
     - **Classificazione Multiclasse** (attivazione Softmax).
+    
 Include una implementazione manuale dello Stochastic Gradient Descent (SGD) e un sistema di Backup per il salvataggio automatico dei "Best Weights" durante l'addestramento per prevenire l'overshooting.
+
 ---
 ## Struttura del Codice
 Il cuore del progetto è la classe `NeuralNetwork`, che include:
